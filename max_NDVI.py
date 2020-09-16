@@ -12,8 +12,8 @@ Creates a multi-dimensional array of annual max NDVI values.
 import gdal, ogr, os, osr
 import numpy as np
 
-years = range(2000, 2001)
-weeks = range(1, 2)
+years = range(2000, 2019)
+weeks = range(1, 53)
 
 yearly_max = []
 for year in years:
